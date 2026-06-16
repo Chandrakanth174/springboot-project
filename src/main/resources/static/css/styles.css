@@ -1,0 +1,63 @@
+h1{
+    color: blue;
+}
+.text-primary{
+    color: orange;
+}
+h4{
+    color: purple;
+}
+h5{
+    color: red;
+}
+h6{
+    color: brown;
+}
+#awesome{
+    color: magenta;
+}
+
+#para{
+    color: green;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#navbar{
+    border: 3px solid black;
+    padding: 10px;
+    background-color: brown;
+}
+
+#navbar a{
+    padding: 15px;
+    text-decoration: none;
+    color: aquamarine;
+}
+
+#navbar a:hover{
+    background-color: rgba(197, 84, 84);
+    color: white;
+}
+
+.card{
+    border: 2px solid black;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card button{
+    margin-bottom: 25px;
+}
