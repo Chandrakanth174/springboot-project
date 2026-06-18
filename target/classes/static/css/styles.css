@@ -28,6 +28,7 @@ h6{
     border: 3px solid black;
     padding: 10px;
     background-color: brown;
+    text-align: center;
 }
 
 #navbar a{
