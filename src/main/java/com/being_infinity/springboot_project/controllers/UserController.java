@@ -52,4 +52,9 @@ public class UserController {
     public void deleteUser(@PathVariable int id) {
         userService.deleteUser(id);
     }
+
+    @GetMapping("/random")
+    public User randomUser() {
+        return userService.randomUser();
+    }
 }

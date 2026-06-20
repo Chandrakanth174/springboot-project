@@ -56,4 +56,11 @@ public class UserService {
         allUsers.removeIf(user -> user.getId() == id);
     }
 
+    public User randomUser() {
+        if (allUsers.isEmpty()) {
+            return null; // Return null if there are no users
+        }
+        int randomIndex = (int) (Math.random() * allUsers.size());
+        return allUsers.get(randomIndex);
+    }
 }
